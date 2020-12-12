@@ -1,0 +1,7 @@
+h1 {
+  border-style: solid;
+  border-width: 0;
+  
+  border-left-width: 0.15m;
+  border-image: linear-gradient(#40e0d0, #ff8c00, #ff0080) 1;
+}
