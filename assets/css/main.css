@@ -3,7 +3,6 @@
   #cccccc;
 */
 body {
-  
  background-color: #eeeeee; 
  color: #222222; ;
  font-family: 'Roboto', sans-serif;
@@ -32,17 +31,21 @@ li{
   margin: 0.3rem auto; 
 }
 
-
 .content{
   background-color: #eeeeee; 
- 
   margin-bottom: 2.5rem;
   padding-left:1rem;
   padding-right:1rem;
 }
 
+.subcontent{
+  background-color: #eeeeee; 
+  margin-bottom: 2.5rem;
+  padding-left:2rem;
+  padding-right:1rem;
+}
+
 .link{
-  
   color: #222222; ;
   font-family: 'Roboto', sans-serif;
   font-size:16; 
