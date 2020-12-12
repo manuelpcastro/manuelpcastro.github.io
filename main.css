@@ -3,17 +3,17 @@
   #cccccc;
 */
 body {
- background-color: #dddddd; 
+ background-color: #eeeeee; 
  color: #222222; ;
  font-family: 'Roboto', sans-serif;
  width: 66%;
  font-size: large;
  margin: 0 auto;
- padding-bottom:60px;   /* Height of the footer */
+ 
 }
 
 .content{
-  background-color: #dddddd; 
+  background-color: #eeeeee; 
  
   margin-bottom: 2.5rem;
   padding-left:1rem;
@@ -31,7 +31,7 @@ li{
 
 
 a{
-  background-color:#dddddd;
+  background-color:#eeeeee;
   color: #222222; ;
   font-family: 'Roboto', sans-serif;
   font-size:16;
@@ -40,7 +40,7 @@ a{
 
 div{
   border-style: solid;
-  border-color: #dddddd;
+  border-color: #eeeeee;
   margin: 1.2rem 1rem 1.2rem 1rem;
 }
 
@@ -84,8 +84,8 @@ h1, h2{
   padding: 0.5em;
   margin: 1rem auto;
   padding-bottom:3rem;
-  min-width:150px;
-  width: 40%;
+  max-width:100%;
+  width: 44rem;
 }
 
 .project-title{
@@ -110,13 +110,16 @@ h1, h2{
 }
 
 
-footer {
- position:absolute;
- bottom: 0;
- margin-bottom:0;
- width: 100%;
- height:60px;   /* Height of the footer */
- text-align: center;
+.footer {
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  margin-top: 4rem;
+  padding: 1rem 0;
+  background: #222;
+  color: #fff;
+  text-align: center;
 }
 
  
@@ -136,3 +139,20 @@ footer {
   height: 100%; 
 }
 
+.header-links {
+  display:inline;
+  padding-right: 1.5rem;
+  margin: 0 auto;
+  text-decoration: underline;
+  font-size: 1.5rem;
+  /*
+  background-color: #dddddd;
+  border: none;
+  padding: 0!important;
+  
+  font-family: arial, sans-serif;
+
+  color: #069;
+  text-decoration: underline;
+  cursor: pointer;*/
+}
