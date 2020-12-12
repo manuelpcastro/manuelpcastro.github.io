@@ -1,0 +1,9 @@
+.form{
+  margin: 0 auto;
+  text-align:center;
+}
+
+.email{
+    display:inline;
+    margin-left: 0.5rem;
+}
