@@ -1,4 +1,4 @@
-@media screen and (min-width: 700px) and (max-width: 1406px) {
+@media screen and (min-width: 701px) and (max-width: 1406px) {
 	header{
 		display:block;
 	}
@@ -80,7 +80,8 @@
 	}
 
 	.optional{
-		display: hidden;
+		display: none;
 	}
 	
 } 
+
