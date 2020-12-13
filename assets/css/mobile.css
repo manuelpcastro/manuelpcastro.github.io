@@ -1,3 +1,19 @@
+@media screen and (min-width: 700px) and (max-width: 1406px) {
+	header{
+		display:block;
+	}
+	.header-links {
+		display:inline;
+		padding-right: 1.4rem;
+		margin: 0;
+		color: black;
+		text-transform:uppercase;
+		text-decoration: none;
+		font-weight: bolder;
+		font-size: 1.2rem;
+	}
+}
+
 @media screen and (min-width: 0px) and (max-width: 700px) { 
 
 	body {
@@ -64,7 +80,7 @@
 	}
 
 	.optional{
-		visibility: hidden;
+		display: hidden;
 	}
 	
 } 
