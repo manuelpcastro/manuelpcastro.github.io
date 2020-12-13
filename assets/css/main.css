@@ -188,11 +188,7 @@ a:hover::after {
 }
 
 a:hover {
-  color: rgb(151, 151, 151);
-}
-
-.blinking {
-	animation: blinker 1.2s linear infinite;
+	color: rgb(151, 151, 151);
 }
 
 .blink {
@@ -209,3 +205,5 @@ a:hover {
     visibility: hidden;
   }
 }
+
+
