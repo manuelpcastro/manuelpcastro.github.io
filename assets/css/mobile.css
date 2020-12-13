@@ -1,48 +1,3 @@
-/*@media screen and (min-width: 391px) and (max-width: 700px) {   
-
-	#222222;
-	#cccccc;
-	eeeeee
-.content{
-  background-color: #eeeeee; 
-  margin-bottom: 2.5rem;
-}
-
-div{
-  border-style: solid;
-  border-color: #eeeeee;
-}
-  	
-	a{
-		text-align: center;
-	}
-	
-	h4{
-		text-align: center;
-	}
-
-li {
-	text-align: center;
-}
-
-.subcontent{
-  background-color: #eeeeee; 
-  margin-bottom: 2.5rem;
-}
-
-.project-box {
-  display: block;
-  margin: 0 auto;
-  padding-bottom:3rem;
-  max-width:100%;
-  width: 44rem;
-}
-
-li{
-  margin: 0 auto; 
-}
-} */
-
 @media screen and (min-width: 0px) and (max-width: 700px) { 
 
 	body {
@@ -106,7 +61,6 @@ li{
 		text-decoration: none;
 		font-weight: bolder;
 		font-size: 1.2rem;
-
 	}
 	
 } 
