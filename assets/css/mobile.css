@@ -1,5 +1,8 @@
-@media screen and (min-width: 390px) and (max-width: 700px) {   
+/*@media screen and (min-width: 391px) and (max-width: 700px) {   
 
+	#222222;
+	#cccccc;
+	eeeeee
 .content{
   background-color: #eeeeee; 
   margin-bottom: 2.5rem;
@@ -18,18 +21,17 @@ div{
 		text-align: center;
 	}
 
-	li {
-		text-align: center;
-	}
+li {
+	text-align: center;
+}
+
 .subcontent{
-    background-color: #eeeeee; 
+  background-color: #eeeeee; 
   margin-bottom: 2.5rem;
-  
 }
 
 .project-box {
   display: block;
-  padding: 0.5em;
   margin: 0 auto;
   padding-bottom:3rem;
   max-width:100%;
@@ -39,9 +41,9 @@ div{
 li{
   margin: 0 auto; 
 }
-} 
+} */
 
-@media screen and (min-width: 0px) and (max-width: 390px) { 
+@media screen and (min-width: 0px) and (max-width: 700px) { 
 
 	body {
 		background-color: #eeeeee; 
@@ -58,10 +60,13 @@ li{
 		margin-bottom: 2.5rem;
 	}
 	
-
-	
 	h4{
 		text-align: center;
+	}
+
+	.about{
+		text-justify:unset;
+		text-align:center;
 	}
 
 
@@ -76,8 +81,8 @@ li{
 	}
 	
 	.project-box {
+		padding:0;
 		display: block;
-		padding: 0.5em;
 		margin: 0 auto;
 		padding-bottom:3rem;
 		max-width:100%;
@@ -87,5 +92,21 @@ li{
 	li{
 		margin: 0 auto; 
 	}
+
+	header{
+		display:block;
+	}
+
+	.header-links {
+		display:block;
+		padding-right: 1.4rem;
+		margin: 0;
+		color: black;
+		text-transform:uppercase;
+		text-decoration: none;
+		font-weight: bolder;
+		font-size: 1.2rem;
+
+	}
 	
-	} 
+} 
