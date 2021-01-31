@@ -70,8 +70,7 @@
               <a class ="link" href="https://github.com/DomingoLopez"><i class="fa fa-github"></i> Domingo Lopez </a>
             </ul>
             <div class="project__images_container">
-              <img class="project__image" src="../assets/citybuilder.png"/>
-              <img class="project__image" src="../assets/citybuilder2.png"/>
+              <img class="project__image" src="../assets/city.png"/>
             </div>
           </div>
 

@@ -3,27 +3,27 @@
         <div class="card-list">
           <div class="card">
             <img class="card__image" src="../assets/projects.png"/>
-            <router-link class="card__title" to="projects">PROJECTS</router-link>
+            <router-link class="card__title" :to="{ path: 'projects'}">PROJECTS</router-link>
             <p class="card__description">University and personal projects</p>
           </div>
           <div class="card">
             <img class="card__image" src="../assets/github.svg"/>
-            <a class="header-links" href="https://github.com/manuelpcastro"> GITHUB </a>
+            <a class="header-links" target="_blank" href="https://github.com/manuelpcastro"> GITHUB </a>
             <p class="card__description">Github Account @manuelpcastro</p>
           </div>
           <div class="card">
             <img class="card__image" src="../assets/linkedin.png"/>
-            <a class="header-links" href="https://www.linkedin.com/in/manuel-pancorbo-castro-b6763a162/">LINKEDIN</a>
+            <a class="header-links" target="_blank" href="https://www.linkedin.com/in/manuel-pancorbo-castro-b6763a162/">LINKEDIN</a>
             <p class="card__description">Direct link to LinkedIn</p>
           </div>
           <div class="card">
             <img class="card__image" src="../assets/aboutme.png"/>
-            <a class="header-links" href="./about.html">ABOUT ME</a>
-            <p class="card__description">Little things about me</p>
+            <router-link class="tabs" :to="{ path: '/'}">ABOUT ME</router-link>
+            <p class="card__description">My experience as a Software Developer and some of my hobbies</p>
           </div>
           <div class="card">
             <img class="card__image" src="../assets/contact.png"/>
-            <a class="header-links" href="./contact.html">CONTACT</a>
+            <router-link class="tabs" :to="{ path: '/'}">CONTACT</router-link>
             <p class="card__description">You can leave me a message here</p>
           </div>
           <!--Add social media if we are on mobile. Clean home page-->
@@ -53,7 +53,6 @@ li {
 a {
   color:  #DA2348;
   text-decoration:none;
-  font-weight: bolder;
 }
 
 .header{
@@ -62,8 +61,6 @@ a {
 
 }
   
-
-
 .card__image{
   width:6rem;
   display:block;
@@ -75,8 +72,6 @@ a {
   display: flex; /* equal height of the children */
   flex-wrap: wrap;
 }
-
-
 
 .card{
   flex: 1; /* additionally, equal width */
