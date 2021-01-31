@@ -1,12 +1,9 @@
 <template>
       <div class="header">
-        <link rel="preconnect" href="https://fonts.gstatic.com">
-        <link href="https://fonts.googleapis.com/css2?family=Roboto+Mono&display=swap" rel="stylesheet"> 
-      <h1><a class="title" href="https://manuelpcastro.github.io">manuelpcastro</a><span class="blink">_</span></h1>
         <div class="card-list">
           <div class="card">
             <img class="card__image" src="../assets/projects.png"/>
-            <a class="card__title" href="./projects.html">PROJECTS</a>
+            <router-link class="card__title" to="projects">PROJECTS</router-link>
             <p class="card__description">University and personal projects</p>
           </div>
           <div class="card">
@@ -36,7 +33,7 @@
 
 <script>
 export default {
-  name: 'HelloWorld',
+  name: 'Home',
 }
 </script>
 
@@ -56,16 +53,7 @@ li {
 a {
   color:  #DA2348;
   text-decoration:none;
-}
-
-.title{
-  color: #DA2348;
-  border-style: solid;
-  border-width: 0;
-  border-left-width: 0.2em;
-  border-image: linear-gradient(#88142b, #DA2348, #ff0080) 1;
-  padding-left:0.2rem;
-  margin-top:3rem;
+  font-weight: bolder;
 }
 
 .header{
@@ -102,19 +90,4 @@ a {
   min-width: 15rem;
 }
 
-.blink {
-  color:#DA2348;
-  animation: blink-animation 1.5s steps(5, start) infinite;
-  -webkit-animation: blink-animation 1.5s steps(5, start) infinite;
-}
-@keyframes blink-animation {
-  to {
-    visibility: hidden;
-  }
-}
-@-webkit-keyframes blink-animation {
-  to {
-    visibility: hidden;
-  }
-}
 </style>
