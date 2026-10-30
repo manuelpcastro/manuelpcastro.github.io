@@ -1,1 +1,689 @@
-<!DOCTYPE html><html lang=""><head><meta charset="utf-8"><meta http-equiv="X-UA-Compatible" content="IE=edge"><meta name="viewport" content="width=device-width,initial-scale=1"><link rel="icon" href="/favicon.ico"><title>my-project</title><link href="/css/about.3e6f792f.css" rel="prefetch"><link href="/js/about.abb8e112.js" rel="prefetch"><link href="/css/app.2506e3b8.css" rel="preload" as="style"><link href="/js/app.6d32c15c.js" rel="preload" as="script"><link href="/js/chunk-vendors.e5f50ab5.js" rel="preload" as="script"><link href="/css/app.2506e3b8.css" rel="stylesheet"></head><body><noscript><strong>We're sorry but my-project doesn't work properly without JavaScript enabled. Please enable it to continue.</strong></noscript><div id="app"></div><script src="/js/chunk-vendors.e5f50ab5.js"></script><script src="/js/app.6d32c15c.js"></script></body></html>
+<!DOCTYPE html>
+<html lang="en" data-accent="amber">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+    <title>Manuel Pancorbo Castro · Software Engineer</title>
+    <meta name="description" content="Manuel Pancorbo Castro, software engineer from Granada. Every project I've built, from university assignments to the apps I use every day.">
+    <meta name="theme-color" content="#06080b">
+    <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Crect width='32' height='32' rx='8' fill='%2306080b'/%3E%3Ctext x='6' y='22' font-family='monospace' font-size='16' font-weight='700' fill='%23ffa645'%3E%3E_%3C/text%3E%3C/svg%3E">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@400;500;600&family=Space+Grotesk:wght@400;500;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./assets/css/site.css">
+  </head>
+
+  <body>
+    <header class="topbar">
+      <div class="wrap">
+        <a class="brand" href="#top"><span class="tilde">~/</span>manuelpcastro<span class="cursor" aria-hidden="true">_</span></a>
+        <nav class="nav" aria-label="Main">
+          <a href="#work">./work</a>
+          <a href="#projects">./projects</a>
+          <a href="#about" class="opt-sm">./about</a>
+          <a href="#contact" class="opt">./contact</a>
+        </nav>
+        <button class="accent-toggle" type="button" data-accent-toggle aria-label="Switch accent colour">
+          <span class="swatch" aria-hidden="true"></span><span class="name">accent: <span data-accent-name>amber</span></span>
+        </button>
+      </div>
+    </header>
+
+    <main id="top">
+      <!-- ============ HERO ============ -->
+      <section class="hero">
+        <div class="wrap">
+          <p class="prompt"><span class="path">manuel@granada</span>:<span class="tilde">~</span><span class="sign">$</span> whoami</p>
+          <h1>Manuel Pancorbo Castro<span class="soft">, full-stack engineer.</span></h1>
+          <p class="lede">
+            <strong>Ruby on Rails and React/TypeScript</strong>, end to end. Five years building a B2B SaaS for
+            financial reporting, where I now also lead CI/CD and AI-assisted development.
+          </p>
+          <div class="cta-row">
+            <a class="btn primary" href="#work">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="m9 18 6-6-6-6"/></svg>
+              cat experience.md
+            </a>
+            <a class="btn" href="#projects">ls projects/</a>
+            <a class="btn" href="https://github.com/manuelpcastro">
+              <svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M12 .5a11.5 11.5 0 0 0-3.64 22.41c.58.1.79-.25.79-.56v-2c-3.2.7-3.87-1.36-3.87-1.36-.53-1.33-1.28-1.69-1.28-1.69-1.05-.71.08-.7.08-.7 1.16.08 1.77 1.19 1.77 1.19 1.03 1.77 2.7 1.26 3.36.96.1-.75.4-1.26.73-1.55-2.56-.29-5.24-1.28-5.24-5.69 0-1.26.45-2.29 1.19-3.09-.12-.29-.52-1.46.11-3.05 0 0 .97-.31 3.17 1.18a10.9 10.9 0 0 1 5.77 0c2.2-1.49 3.17-1.18 3.17-1.18.63 1.59.23 2.76.11 3.05.74.8 1.19 1.83 1.19 3.09 0 4.42-2.69 5.39-5.25 5.68.41.36.78 1.06.78 2.14v3.17c0 .31.21.67.8.56A11.5 11.5 0 0 0 12 .5Z"/></svg>
+              github
+            </a>
+            <a class="btn" href="https://www.linkedin.com/in/manuel-pancorbo-castro-b6763a162/">
+              <svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M20.45 20.45h-3.56v-5.57c0-1.33-.02-3.04-1.85-3.04-1.85 0-2.14 1.45-2.14 2.94v5.67H9.35V9h3.41v1.56h.05c.48-.9 1.64-1.85 3.37-1.85 3.6 0 4.27 2.37 4.27 5.46v6.28ZM5.34 7.43a2.06 2.06 0 1 1 0-4.13 2.06 2.06 0 0 1 0 4.13ZM7.12 20.45H3.56V9h3.56v11.45ZM22.22 0H1.77C.79 0 0 .77 0 1.73v20.54C0 23.23.79 24 1.77 24h20.45c.98 0 1.78-.77 1.78-1.73V1.73C24 .77 23.2 0 22.22 0Z"/></svg>
+              linkedin
+            </a>
+          </div>
+        </div>
+      </section>
+
+      <!-- ============ WORK ============ -->
+      <section id="work">
+        <div class="wrap">
+          <div class="section-head">
+            <span class="idx">// 01</span>
+            <h2>Work</h2>
+            <span class="cmd">cat experience.md</span>
+          </div>
+          <p class="section-note">A multi-tenant B2B SaaS that accounting firms use to automate reporting and analysis for the companies they manage.</p>
+
+          <div class="pane roles">
+            <div class="window-bar"><span class="dots"><i></i><i></i><i></i></span><span class="url">~/work · git log --oneline --graph</span></div>
+
+            <article class="role">
+              <header>
+                <h3>Platform Engineer <span class="at">@ Bizzcontrol</span></h3>
+                <span class="when">Jan 2026 – now</span>
+              </header>
+              <ul class="feature-list">
+                <li>Lead CI/CD, release management and test automation (Cypress, Docker, GitHub Actions)</li>
+                <li>Rolled out a spec-driven workflow for AI coding agents across the team, including agent runs that open pull requests for review</li>
+                <li>Still ship product features: financial planning and benchmarking reports</li>
+              </ul>
+            </article>
+
+            <article class="role">
+              <header>
+                <h3>Software Engineer <span class="at">@ Bizzcontrol</span></h3>
+                <span class="when">Jul 2025 – Dec 2025</span>
+              </header>
+              <ul class="feature-list">
+                <li>Features end to end across analytics, financial planning and reporting, including configurable KPI management</li>
+              </ul>
+            </article>
+
+            <article class="role">
+              <header>
+                <h3>Full-Stack Software Engineer <span class="at">@ Nazaries</span></h3>
+                <span class="when">Jan 2021 – Jun 2025</span>
+              </header>
+              <p class="role-note">Early engineer on the same product, from its three-founder stage to a team of 25+.</p>
+              <ul class="feature-list">
+                <li>KPI dashboards and alerts, plus forecasting, budgeting and cash-flow planning tools</li>
+                <li>Automated reporting: document generation, PDFs and bulk e-mail delivery</li>
+                <li>Multi-tenant access for firms managing many companies</li>
+              </ul>
+            </article>
+
+            <ul class="stack roles-stack">
+              <li>Ruby on Rails</li><li>React</li><li>TypeScript</li><li>MySQL</li><li>MongoDB</li><li>Redis</li><li>Sidekiq</li><li>Cypress</li><li>GitHub Actions</li><li>Docker</li>
+            </ul>
+            <div class="links roles-links"><a href="https://www.linkedin.com/in/manuel-pancorbo-castro-b6763a162/">full experience on linkedin</a></div>
+          </div>
+        </div>
+      </section>
+
+      <!-- ============ PROJECTS ============ -->
+      <section id="projects">
+        <div class="wrap">
+          <div class="section-head">
+            <span class="idx">// 02</span>
+            <h2>Side projects</h2>
+            <span class="cmd">git log --all --author=manuelpcastro</span>
+          </div>
+          <p class="section-note">Personal projects, built on my own time.</p>
+
+          <div class="filters" role="group" aria-label="Filter projects">
+            <button class="chip" type="button" data-filter="all" aria-pressed="true">all</button>
+            <button class="chip" type="button" data-filter="web" aria-pressed="false">web</button>
+            <button class="chip" type="button" data-filter="mobile" aria-pressed="false">mobile</button>
+            <button class="chip" type="button" data-filter="backend" aria-pressed="false">backend</button>
+            <button class="chip" type="button" data-filter="games" aria-pressed="false">games</button>
+            <button class="chip" type="button" data-filter="ai" aria-pressed="false">ai &amp; algorithms</button>
+            <button class="chip" type="button" data-filter="uni" aria-pressed="false">university</button>
+          </div>
+
+          <!-- ---------- Featured ---------- -->
+          <div class="featured" data-featured>
+
+            <article class="pane card hero-card" data-tags="web mobile backend">
+              <div class="body">
+                <div class="badges">
+                  
+                  <span class="badge">PWA</span>
+                </div>
+                <div class="card-head">
+                  <h3>AironForge</h3>
+                  <span class="year">2026</span>
+                </div>
+                <p>A gym log for the moment between sets: log weight, reps and RPE, follow routines and a weekly schedule, and track each exercise's progress. Installable, and works offline.</p>
+                <ul class="stack">
+                  <li>React 18</li><li>TypeScript</li><li>MUI</li><li>Redux Toolkit</li><li>Rails 8 API</li><li>MySQL</li><li>Supabase</li><li>Docker</li><li>nginx</li>
+                </ul>
+              </div>
+              <div class="media">
+                <div class="phones">
+                  <div class="phone"><img src="./assets/img/projects/aironforge-today.webp" width="600" height="1298" alt="AironForge Today screen: start-workout button, weekly streak and last workout" loading="lazy"></div>
+                  <div class="phone"><img src="./assets/img/projects/aironforge-progress.webp" width="600" height="1298" alt="AironForge History screen: weekly sets chart and most-trained exercises with trend lines" loading="lazy"></div>
+                  <div class="phone"><img src="./assets/img/projects/aironforge-exercise.webp" width="600" height="1298" alt="AironForge exercise detail: estimated 1RM chart for bench press" loading="lazy"></div>
+                </div>
+              </div>
+            </article>
+
+            <article class="pane card" data-tags="web backend">
+              <div class="media">
+                <div class="window">
+                  <div class="window-bar"><span class="dots"><i></i><i></i><i></i></span><span class="url">localhost:8000 · cashandinv</span></div>
+                  <img src="./assets/img/projects/cashandinv-dashboard.webp" width="1100" height="765" alt="cashandinv dashboard with demo data: total net worth, net worth over time chart, breakdown by connected account (three brokers, a fund platform and a bank) and asset class" loading="lazy">
+                </div>
+              </div>
+              <div class="body">
+                <div class="badges"><span class="badge">local-first</span></div>
+                <div class="card-head"><h3>cashandinv</h3><span class="year">2026</span></div>
+                <p>One dashboard for all my money. It connects to several brokers, fund platforms and banks through read-only third-party APIs and statement imports, adds everything up in euros and tracks net worth over time. It runs locally, so keys and balances stay on my machine.</p>
+                <ul class="stack"><li>Python</li><li>FastAPI</li><li>Jinja2</li><li>SQLite</li><li>third-party APIs</li><li>statement imports</li><li>pytest</li></ul>
+                <div class="links"><span class="note">screenshot uses demo data</span></div>
+              </div>
+            </article>
+
+            <article class="pane card" data-tags="web backend">
+              <div class="media">
+                <div class="window">
+                  <div class="window-bar"><span class="dots"><i></i><i></i><i></i></span><span class="url">manuelpcastro.github.io/eduassai</span></div>
+                  <img src="./assets/img/projects/eduassai-practice.webp" width="1400" height="1050" alt="EduAssAI 'Now and next' activity: two large cards, wake up and have breakfast, to place in order" loading="lazy">
+                </div>
+              </div>
+              <div class="body">
+                <div class="badges"><span class="badge live">live</span><span class="badge">i18n es/en</span></div>
+                <div class="card-head"><h3>EduAssAI</h3><span class="year">2026</span></div>
+                <p>A calm website for teachers and families working on everyday routines with children who need extra support, including autistic children. Pictograms, read-aloud and no timers.</p>
+                <ul class="stack"><li>React 19</li><li>TypeScript</li><li>Vite</li><li>i18next</li><li>Hono</li><li>PostgreSQL</li><li>Drizzle</li><li>Cloudflare Workers</li></ul>
+                <div class="links">
+                  <a href="https://manuelpcastro.github.io/eduassai/">open app</a>
+                  <a href="https://github.com/manuelpcastro/eduassai">source</a>
+                </div>
+              </div>
+            </article>
+
+            <article class="pane card" data-tags="web">
+              <div class="media">
+                <div class="window">
+                  <div class="window-bar"><span class="dots"><i></i><i></i><i></i></span><span class="url">manuelpcastro.github.io/SmartReader</span></div>
+                  <img src="./assets/img/projects/smartreader-reader.webp" width="1600" height="1000" alt="SmartReader reading a Spanish text with the current sentence highlighted and playback controls" loading="lazy">
+                </div>
+              </div>
+              <div class="body">
+                <div class="badges"><span class="badge live">live</span></div>
+                <div class="card-head"><h3>SmartReader</h3><span class="year">2026</span></div>
+                <p>Listen to PDFs, Word files, links or pasted text in natural-sounding Spanish. The text is rewritten for speech first, so dates, abbreviations and numbers are read properly.</p>
+                <ul class="stack"><li>TypeScript</li><li>Vite</li><li>pdf.js</li><li>mammoth</li><li>Web Speech</li><li>Vitest</li></ul>
+                <div class="links">
+                  <a href="https://manuelpcastro.github.io/SmartReader/">open app</a>
+                  <a href="https://github.com/manuelpcastro/SmartReader">source</a>
+                </div>
+              </div>
+            </article>
+
+            <article class="pane card" data-tags="web uni ai">
+              <div class="media">
+                <div class="window">
+                  <div class="window-bar"><span class="dots"><i></i><i></i><i></i></span><span class="url">localhost:3000/models · mlr</span></div>
+                  <img src="./assets/img/projects/mlr-models.webp" width="1600" height="1000" alt="Machine Learning Research app: grid of models with type and processing status" loading="lazy">
+                </div>
+              </div>
+              <div class="body">
+                <div class="badges"><span class="badge uni">final degree project</span></div>
+                <div class="card-head"><h3>Machine Learning Research</h3><span class="year">2022</span></div>
+                <p>My final degree project: a web app to manage machine-learning research projects and models, with role-based users.</p>
+                <ul class="stack"><li>React</li><li>Redux</li><li>RTK Query</li><li>reactstrap</li><li>Sass</li><li>json-server</li></ul>
+                <div class="links"><a href="https://github.com/manuelpcastro/mlr_react_tfg">source</a></div>
+              </div>
+            </article>
+
+            <article class="pane card" data-tags="web uni team">
+              <div class="media">
+                <div class="window">
+                  <div class="window-bar"><span class="dots"><i></i><i></i><i></i></span><span class="url">DIU20 / P2 / wireframes</span></div>
+                  <img src="./assets/img/projects/flatsgo-wireframes.webp" width="1600" height="806" alt="FLATS&amp;GO wireframes: home, search results, flat detail and recommendations screens" loading="lazy">
+                </div>
+              </div>
+              <div class="body">
+                <div class="badges"><span class="badge team">team</span><span class="badge uni">UX</span></div>
+                <div class="card-head"><h3>FLATS&amp;GO</h3><span class="year">2020</span></div>
+                <p>A UX case study for a flat-rental app: research, personas, wireframes and usability testing.</p>
+                <ul class="stack"><li>UX research</li><li>wireframing</li><li>usability testing</li></ul>
+                <div class="links">
+                  <a href="https://github.com/DomingoLopez/DIU20">case study</a>
+                  <span class="note">with Domingo López</span>
+                </div>
+              </div>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <!-- ============ ARCHIVE ============ -->
+      <section id="archive">
+        <div class="wrap">
+          <div class="section-head">
+            <span class="idx">// 03</span>
+            <h2>Archive</h2>
+            <span class="cmd">git log --reverse --since=2020</span>
+          </div>
+
+          <div class="log">
+
+            <!-- ===== 2022 ===== -->
+            <div class="year-group" data-year-group>
+              <p class="year-label"><strong>2022</strong><span>after graduating</span></p>
+              <div class="grid">
+                <article class="pane card small" data-tags="">
+                  <div class="media">
+                    <div class="window">
+                      <div class="window-bar"><span class="dots"><i></i><i></i><i></i></span><span class="url">code-challenge/code/hpl.js</span></div>
+<pre class="code"><code><span class="k">const</span> <span class="f">getAction</span> = emoji <span class="k">=&gt;</span> {
+  <span class="k">switch</span> (emoji) {
+    <span class="k">case</span> <span class="s">"👉"</span>: <span class="k">return</span> <span class="s">"moveRight"</span>
+    <span class="k">case</span> <span class="s">"👈"</span>: <span class="k">return</span> <span class="s">"moveLeft"</span>
+    <span class="k">case</span> <span class="s">"👆"</span>: <span class="k">return</span> <span class="s">"increase"</span>
+    <span class="k">case</span> <span class="s">"👇"</span>: <span class="k">return</span> <span class="s">"decrease"</span>
+    <span class="k">case</span> <span class="s">"🤜"</span>: <span class="k">return</span> <span class="s">"jumpRight"</span>
+    <span class="k">case</span> <span class="s">"🤛"</span>: <span class="k">return</span> <span class="s">"jumpLeft"</span>
+    <span class="k">case</span> <span class="s">"👊"</span>: <span class="k">return</span> <span class="s">"addCharToDisplay"</span>
+  }
+}</code></pre>
+                    </div>
+                  </div>
+                  <div class="body">
+                    <div class="badges"><span class="badge">coding challenge</span></div>
+                    <div class="card-head"><h3>Hand Programming Language</h3><span class="year">2022</span></div>
+                    <p>An interpreter for a 7-instruction emoji language, written as a pure reducer.</p>
+                    <ul class="stack"><li>JavaScript</li><li>functional</li><li>tests</li></ul>
+                  </div>
+                </article>
+              </div>
+            </div>
+
+            <!-- ===== 2021 ===== -->
+            <div class="year-group" data-year-group>
+              <p class="year-label"><strong>2021</strong><span>last year at UGR</span></p>
+              <div class="grid">
+
+                <article class="pane card small" data-tags="web backend">
+                  <div class="media">
+                    <div class="window">
+                      <div class="window-bar"><span class="dots"><i></i><i></i><i></i></span><span class="url">whitefy/app/controllers/playlists_controller.rb</span></div>
+<pre class="code"><code><span class="k">class</span> <span class="t">PlaylistsController</span> &lt; <span class="t">ApplicationController</span>
+  <span class="k">def</span> <span class="f">all</span>
+    <span class="p">@playlists</span> = <span class="t">Playlist</span>.all
+    render <span class="n">:json</span> =&gt; <span class="p">@playlists</span>.to_json(<span class="n">:include</span> =&gt; [<span class="n">:songs</span>])
+  <span class="k">end</span>
+
+  <span class="k">def</span> <span class="f">show</span>
+    <span class="p">@playlist</span> = <span class="t">Playlist</span>.find(params[<span class="n">:id</span>])
+    render <span class="n">:json</span> =&gt; <span class="p">@playlist</span>.to_json(<span class="n">:include</span> =&gt; [<span class="n">:songs</span>])
+  <span class="k">end</span>
+<span class="k">end</span></code></pre>
+                    </div>
+                  </div>
+                  <div class="body">
+                    <div class="card-head"><h3>Whitefy</h3><span class="year">2021</span></div>
+                    <p>A light-themed, Spotify-style music app. My first full Rails + React app, running on Docker Compose.</p>
+                    <ul class="stack"><li>Ruby on Rails 6</li><li>React 17</li><li>Webpacker</li><li>Bootstrap</li><li>Docker</li></ul>
+                  </div>
+                </article>
+
+                <article class="pane card small" data-tags="mobile uni team">
+                  <div class="media">
+                    <div class="window">
+                      <div class="window-bar"><span class="dots"><i></i><i></i><i></i></span><span class="url">youtube · demo</span></div>
+                      <a class="thumb" href="https://www.youtube.com/watch?v=ZmXa1ufT9u0" aria-label="Watch the Vale app demo on YouTube">
+                        <img src="https://i.ytimg.com/vi/ZmXa1ufT9u0/hqdefault.jpg" alt="" loading="lazy">
+                        <span class="play"><span><svg width="18" height="18" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M8 5v14l11-7z"/></svg></span></span>
+                      </a>
+                    </div>
+                  </div>
+                  <div class="body">
+                    <div class="badges"><span class="badge team">team</span><span class="badge uni">UGR</span></div>
+                    <div class="card-head"><h3>Vale · school platform</h3><span class="year">2021</span></div>
+                    <p>A school task app for Android and iOS with a Django REST backend, built as a team.</p>
+                    <ul class="stack"><li>Angular</li><li>Ionic</li><li>Capacitor</li><li>Django REST</li></ul>
+                    <div class="links">
+                      <a href="https://github.com/Josalmer/DGP_Angular_Ionic_Mobile_app">app</a>
+                      <a href="https://github.com/marcoscastillo92/Backend_DGP_Python">backend</a>
+                    </div>
+                  </div>
+                </article>
+
+                <article class="pane card small" data-tags="ai games uni">
+                  <div class="media">
+                    <div class="window">
+                      <div class="window-bar"><span class="dots"><i></i><i></i><i></i></span><span class="url">GVGAI/…/src_Pancorbo_Castro_Manuel/Pathfinder.java</span></div>
+<pre class="code"><code><span class="c">// steps weigh more than distance: turning costs ticks</span>
+<span class="t">Comparator</span>&lt;<span class="t">PathfinderOption</span>&gt; comparator =
+    <span class="t">Comparator</span>.<span class="f">comparingDouble</span>(o <span class="k">-&gt;</span>
+        o.distance + o.<span class="f">getPath</span>().<span class="f">size</span>() * <span class="n">4.0</span>);
+<span class="t">PriorityQueue</span>&lt;<span class="t">PathfinderOption</span>&gt; queue =
+    <span class="k">new</span> <span class="t">PriorityQueue</span>(comparator);
+
+<span class="k">while</span> (queue.<span class="f">size</span>() != <span class="n">0</span>
+       &amp;&amp; !current.<span class="f">checkCoordinates</span>(targetPosition)) {
+  queue.<span class="f">poll</span>();
+  <span class="c">// expand valid neighbours, skip visited…</span>
+}</code></pre>
+                    </div>
+                  </div>
+                  <div class="body">
+                    <div class="badges"><span class="badge fork">fork</span><span class="badge uni">UGR · AI</span></div>
+                    <div class="card-head"><h3>GVGAI agent</h3><span class="year">2021</span></div>
+                    <p>A game-playing agent for the General Video Game AI framework, using A* pathfinding.</p>
+                    <ul class="stack"><li>Java</li><li>A*</li><li>search</li></ul>
+                    <div class="links"><a href="https://github.com/manuelpcastro/GVGAI/tree/master/src/tracks/singlePlayer/src_Pancorbo_Castro_Manuel">my agent</a></div>
+                  </div>
+                </article>
+
+                <article class="pane card small" data-tags="ai uni">
+                  <div class="media">
+                    <div class="window">
+                      <div class="window-bar"><span class="dots"><i></i><i></i><i></i></span><span class="url">NTP-P1/src/HeuristicaMonteCarlo.java</span></div>
+<pre class="code"><code><span class="k">public</span> <span class="t">Ruta</span> <span class="f">resolver</span>(<span class="t">Problema</span> problema) {
+  muestras = problema.<span class="f">obtenerDimension</span>() * <span class="n">100</span>;
+
+  <span class="t">Ruta</span>[] rutas = <span class="k">new</span> <span class="t">Ruta</span>[muestras];
+  <span class="t">IntStream</span>.<span class="f">range</span>(<span class="n">0</span>, muestras)
+      .<span class="f">forEach</span>(i <span class="k">-&gt;</span> rutas[i] = <span class="f">generarAleatoria</span>());
+
+  <span class="k">return</span> <span class="t">Arrays</span>.<span class="f">stream</span>(rutas)
+      .<span class="f">min</span>(<span class="t">Comparator</span>.<span class="f">comparingDouble</span>(<span class="t">Ruta</span>::obtenerCoste))
+      .<span class="f">get</span>();
+}</code></pre>
+                    </div>
+                  </div>
+                  <div class="body">
+                    <div class="badges"><span class="badge uni">UGR</span></div>
+                    <div class="card-head"><h3>TSP heuristics</h3><span class="year">2021</span></div>
+                    <p>Travelling Salesman heuristics compared on real instances, written with Java streams.</p>
+                    <ul class="stack"><li>Java</li><li>streams</li><li>heuristics</li></ul>
+                  </div>
+                </article>
+
+                <article class="pane card small" data-tags="uni">
+                  <div class="media">
+                    <div class="window">
+                      <div class="window-bar"><span class="dots"><i></i><i></i><i></i></span><span class="url">NTP-P2/src/main/scala/TrianguloPascal.scala</span></div>
+<pre class="code"><code><span class="k">def</span> <span class="f">calcularValorTrianguloPascal</span>(fila: <span class="t">Int</span>, columna: <span class="t">Int</span>,
+    metodoFactorial: <span class="t">Int</span> =&gt; <span class="t">Long</span>): <span class="t">Long</span> = {
+  <span class="k">if</span> (columna &gt; fila) <span class="k">return</span> <span class="n">0</span>
+  metodoFactorial(fila) /
+    (metodoFactorial(columna) * metodoFactorial(fila - columna))
+}
+
+<span class="c">// tail-recursive factorial</span>
+<span class="k">def</span> <span class="f">factorialTailRecursive</span>(n: <span class="t">Int</span>, a: <span class="t">Int</span>): <span class="t">Int</span> =
+  <span class="k">if</span> (n == <span class="n">0</span>) a
+  <span class="k">else</span> <span class="f">factorialTailRecursive</span>(n - <span class="n">1</span>, n * a)</code></pre>
+                    </div>
+                  </div>
+                  <div class="body">
+                    <div class="badges"><span class="badge uni">UGR</span></div>
+                    <div class="card-head"><h3>Functional Scala</h3><span class="year">2021</span></div>
+                    <p>Functional programming exercises, covered by property-based tests.</p>
+                    <ul class="stack"><li>Scala 2.13</li><li>ScalaTest</li><li>ScalaCheck</li><li>sbt</li></ul>
+                  </div>
+                </article>
+
+                <article class="pane card small" data-tags="ai uni team">
+                  <div class="media">
+                    <div class="window">
+                      <div class="window-bar"><span class="dots"><i></i><i></i><i></i></span><span class="url">DBA_practices/practica3/src/Awacs/Awacs.java</span></div>
+<pre class="code"><code><span class="c">@Override</span>
+<span class="k">protected boolean</span> <span class="f">doCheckinLARVA</span>() {
+  out = <span class="k">new</span> <span class="t">ACLMessage</span>();
+  out.<span class="f">setSender</span>(<span class="f">getAID</span>());
+  out.<span class="f">addReceiver</span>(<span class="k">new</span> <span class="t">AID</span>(_identitymanager, <span class="t">AID</span>.ISLOCALNAME));
+  out.<span class="f">setPerformative</span>(<span class="t">ACLMessage</span>.SUBSCRIBE);
+  out.<span class="f">setProtocol</span>(<span class="s">"ANALYTICS"</span>);
+  <span class="k">this</span>.<span class="f">send</span>(out);
+  in = <span class="k">this</span>.<span class="f">blockingReceive</span>(
+      <span class="t">MessageTemplate</span>.<span class="f">MatchInReplyTo</span>(reqReplyWith), <span class="n">3000</span>);
+  <span class="c">// …</span>
+}</code></pre>
+                    </div>
+                  </div>
+                  <div class="body">
+                    <div class="badges"><span class="badge team">team</span><span class="badge uni">UGR</span></div>
+                    <div class="card-head"><h3>Multi-agent drones</h3><span class="year">2021</span></div>
+                    <p>JADE agents coordinating a search-and-rescue mission through ACL messages.</p>
+                    <ul class="stack"><li>Java</li><li>JADE</li><li>LARVA</li><li>ACL</li></ul>
+                    <div class="links"><a href="https://github.com/Josalmer/DBA_practices">source</a></div>
+                  </div>
+                </article>
+
+                <article class="pane card small" data-tags="web games">
+                  <div class="media">
+                    <div class="window">
+                      <div class="window-bar"><span class="dots"><i></i><i></i><i></i></span><span class="url">TurnBasedGameReact/src/Game.js</span></div>
+<pre class="code"><code><span class="k">const</span> [current, setCurrent] = React.<span class="f">useState</span>(<span class="n">0</span>);
+
+<span class="k">const</span> <span class="f">attack</span> = () <span class="k">=&gt;</span> {
+  <span class="f">resetEffects</span>();
+  <span class="k">if</span> (<span class="f">checkEnding</span>()) <span class="k">return</span>;
+
+  <span class="k">const</span> foe = players[(current + <span class="n">1</span>) % <span class="n">2</span>];
+  <span class="k">let</span> shield = foe.defending ? foe.shield : <span class="n">0</span>;
+  foe.hp -= players[current].dmg - shield;
+  <span class="f">paintHit</span>();
+  <span class="f">next</span>();
+}</code></pre>
+                    </div>
+                  </div>
+                  <div class="body">
+                    <div class="badges"><span class="badge">playground</span></div>
+                    <div class="card-head"><h3>Turn-based combat</h3><span class="year">2021</span></div>
+                    <p>A two-player turn-based combat game, built to learn React.</p>
+                    <ul class="stack"><li>React 17</li><li>hooks</li><li>CSS</li></ul>
+                    <div class="links"><a href="https://github.com/manuelpcastro/TurnBasedGameReact">source</a></div>
+                  </div>
+                </article>
+              </div>
+            </div>
+
+            <!-- ===== 2020 ===== -->
+            <div class="year-group" data-year-group>
+              <p class="year-label"><strong>2020</strong><span>where it started</span></p>
+              <div class="grid">
+
+                <article class="pane card small" data-tags="web games uni team">
+                  <div class="media">
+                    <div class="window">
+                      <div class="window-bar"><span class="dots"><i></i><i></i><i></i></span><span class="url">youtube · gameplay</span></div>
+                      <a class="thumb" href="https://www.youtube.com/watch?v=NYG5XUxYf3o" aria-label="Watch the Cities&amp;GO gameplay on YouTube">
+                        <img src="https://i.ytimg.com/vi/NYG5XUxYf3o/hqdefault.jpg" alt="" loading="lazy">
+                        <span class="play"><span><svg width="18" height="18" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M8 5v14l11-7z"/></svg></span></span>
+                      </a>
+                    </div>
+                  </div>
+                  <div class="body">
+                    <div class="badges"><span class="badge team">team</span><span class="badge uni">UGR</span></div>
+                    <div class="card-head"><h3>Cities&amp;GO</h3><span class="year">2020</span></div>
+                    <p>A 3D city builder in the browser, with a day/night cycle. Final project for Computer Graphics.</p>
+                    <ul class="stack"><li>JavaScript</li><li>Three.js</li><li>ThreeBSP</li><li>dat.gui</li></ul>
+                    <div class="links">
+                      <a href="https://github.com/DomingoLopez/Cities-GO">source</a>
+                      <span class="note">with Domingo López</span>
+                    </div>
+                  </div>
+                </article>
+
+                <article class="pane card small" data-tags="web backend uni">
+                  <div class="media">
+                    <div class="window">
+                      <div class="window-bar"><span class="dots"><i></i><i></i><i></i></span><span class="url">Home-Automation/server.js</span></div>
+<pre class="code"><code>client.<span class="f">on</span>(<span class="s">'update-sensor'</span>, <span class="k">function</span> (data) {
+  <span class="k">var</span> sensor = { sensor: data[<span class="s">'sensor'</span>] };
+  collection.<span class="f">findOneAndUpdate</span>(sensor,
+    { <span class="p">$set</span>: { valor: data[<span class="s">'valor'</span>] } });
+
+  collection.<span class="f">find</span>().<span class="f">toArray</span>((err, results) <span class="k">=&gt;</span>
+    io.sockets.<span class="f">emit</span>(<span class="s">'actualizar'</span>, results));
+
+  <span class="k">if</span> (data[<span class="s">'valor'</span>] &gt;= result[<span class="n">0</span>].maximo)
+    io.sockets.<span class="f">emit</span>(<span class="s">'alerta'</span>, data);
+});</code></pre>
+                    </div>
+                  </div>
+                  <div class="body">
+                    <div class="badges"><span class="badge uni">UGR</span></div>
+                    <div class="card-head"><h3>Home automation</h3><span class="year">2020</span></div>
+                    <p>A real-time home automation panel: sensors, alerts and live controls over WebSockets.</p>
+                    <ul class="stack"><li>Node.js</li><li>Socket.io</li><li>MongoDB</li></ul>
+                    <div class="links">
+                      <a href="https://github.com/manuelpcastro/Home-Automation">source</a>
+                      <a href="https://drive.google.com/file/d/1RNllzi0yKbR_yKAvnk2LK_Ihq5BwPBuS/view">demo video</a>
+                    </div>
+                  </div>
+                </article>
+
+                <article class="pane card small" data-tags="mobile uni">
+                  <div class="media">
+                    <div class="window">
+                      <div class="window-bar"><span class="dots"><i></i><i></i><i></i></span><span class="url">CitasGO/app/…/adaptadores/Servicio.java</span></div>
+<pre class="code"><code><span class="k">public enum</span> <span class="t">Servicio</span> {
+  CORTE_PELO(<span class="s">"CORTE PELO"</span>, <span class="n">5</span>),
+  CORTE_BARBA(<span class="s">"CORTE BARBA"</span>, <span class="n">4</span>),
+  CORTE_COMPLETO(<span class="s">"CORTE COMPLETO"</span>, <span class="n">7</span>);
+
+  <span class="k">public static</span> <span class="t">Servicio</span> <span class="f">getServicio</span>(<span class="t">String</span> s) {
+    <span class="k">switch</span> (s.<span class="f">toUpperCase</span>()) {
+      <span class="k">case</span> <span class="s">"CORTE BARBA"</span>: <span class="k">return</span> CORTE_BARBA;
+      <span class="k">case</span> <span class="s">"CORTE COMPLETO"</span>: <span class="k">return</span> CORTE_COMPLETO;
+      <span class="k">default</span>: <span class="k">return</span> CORTE_PELO;
+    }
+  }
+}</code></pre>
+                    </div>
+                  </div>
+                  <div class="body">
+                    <div class="badges"><span class="badge uni">UGR</span></div>
+                    <div class="card-head"><h3>CitasGO</h3><span class="year">2020</span></div>
+                    <p>An Android app for booking appointments at a barber's, through a REST API.</p>
+                    <ul class="stack"><li>Java</li><li>Android</li><li>REST</li></ul>
+                    <div class="links">
+                      <a href="https://github.com/manuelpcastro/CitasGO-AndroidApp">app</a>
+                      <a href="https://github.com/DomingoLopez/Cita-Previa-Server-DS">server</a>
+                    </div>
+                  </div>
+                </article>
+
+                <article class="pane card small" data-tags="games uni">
+                  <div class="media">
+                    <div class="window">
+                      <div class="window-bar"><span class="dots"><i></i><i></i><i></i></span><span class="url">CivitasRuby/lib/civitas_juego.rb</span></div>
+<pre class="code"><code><span class="k">def</span> <span class="f">avanza_jugador</span>
+  jugador = <span class="f">get_jugador_actual</span>
+  tirada  = <span class="t">Dado</span>.instance.<span class="f">tirar</span>
+
+  posicion_nueva = <span class="p">@tablero</span>.<span class="f">nueva_posicion</span>(
+    jugador.num_casilla_actual, tirada)
+  casilla = <span class="p">@tablero</span>.<span class="f">get_casilla</span>(posicion_nueva)
+
+  jugador.<span class="f">mover_a_casilla</span>(posicion_nueva)
+  casilla.<span class="f">recibe_jugador</span>(<span class="p">@indice_jugador_actual</span>, <span class="p">@jugadores</span>)
+  <span class="f">contabilizar_pasos_por_salida</span>(jugador)
+<span class="k">end</span></code></pre>
+                    </div>
+                  </div>
+                  <div class="body">
+                    <div class="badges"><span class="badge">java + ruby</span><span class="badge uni">UGR</span></div>
+                    <div class="card-head"><h3>Civitas</h3><span class="year">2020</span></div>
+                    <p>A Monopoly-style board game, built twice: in Java with Swing and in Ruby.</p>
+                    <ul class="stack"><li>Java</li><li>Swing</li><li>Ruby</li><li>OOP</li></ul>
+                    <div class="links">
+                      <a href="https://github.com/manuelpcastro/PropertyManagementJavaGame">java version</a>
+                    </div>
+                  </div>
+                </article>
+
+                <article class="pane card small" data-tags="web">
+                  <div class="media">
+                    <div class="window">
+                      <div class="window-bar"><span class="dots"><i></i><i></i><i></i></span><span class="url">manuelpcastro.github.io · git log</span></div>
+<pre class="code"><code><span class="n">197962d</span> Changed pages title and set UTF-8
+<span class="n">ecfd036</span> Fixed responsive menu
+<span class="n">6b3449c</span> Minor fixes. <span class="c">I should stop commiting</span>
+<span class="n">ec5de80</span> New home page
+<span class="n">22e23ea</span> Including about me page
+<span class="n">0153179</span> Mobile view ready
+<span class="n">7906924</span> Checkin from mobile browser v2
+<span class="n">402163c</span> Checkin from mobile browser
+<span class="n">e423ad4</span> Contact and Project pages
+<span class="n">bdce477</span> Website structure ready</code></pre>
+                    </div>
+                  </div>
+                  <div class="body">
+                    <div class="badges"><span class="badge live">you are here</span></div>
+                    <div class="card-head"><h3>This website</h3><span class="year">2020 → 2026</span></div>
+                    <p>v1 was hand-written HTML and CSS. v2 keeps the blinking cursor and still has no framework.</p>
+                    <ul class="stack"><li>HTML</li><li>CSS</li><li>vanilla JS</li><li>GitHub Pages</li></ul>
+                    <div class="links"><a href="https://github.com/manuelpcastro/manuelpcastro.github.io">source</a></div>
+                  </div>
+                </article>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- ============ ABOUT + CONTACT ============ -->
+      <section id="about">
+        <div class="wrap">
+          <div class="section-head">
+            <span class="idx">// 04</span>
+            <h2>About</h2>
+            <span class="cmd">cat about.md</span>
+          </div>
+
+          <div class="about-grid">
+            <div class="pane term">
+              <p class="line"><span class="sign" style="color:var(--accent)">$</span> cat about.md</p>
+              <div class="out">
+                <p>I enjoy building and growing software products, and I'm happiest in versatile full-stack roles where I can see the bigger picture. Outside of code: videogames, the electric guitar and fitness.</p>
+              </div>
+              <p class="line"><span style="color:var(--accent)">$</span> cat ~/.profile</p>
+              <dl class="kv">
+                <dt>based</dt><dd>Granada, Spain</dd>
+                <dt>studied</dt><dd>BSc Computer Engineering · Universidad de Granada</dd>
+                <dt>english</dt><dd>C1 · Cambridge C1 Advanced</dd>
+                <dt>stack</dt><dd>Ruby on Rails · React · TypeScript · MySQL · Redis · Docker</dd>
+              </dl>
+            </div>
+
+            <div class="pane term" id="contact">
+              <p class="line"><span style="color:var(--accent)">$</span> ./contact --all</p>
+              <ul class="contact-list">
+                <li>
+                  <a href="mailto:manuel.pcastro@outlook.com">
+                    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><rect x="2" y="4" width="20" height="16" rx="2"/><path d="m22 7-10 6L2 7"/></svg>
+                    manuel.pcastro@outlook.com<span class="lbl">email</span>
+                  </a>
+                </li>
+                <li>
+                  <a href="https://www.linkedin.com/in/manuel-pancorbo-castro-b6763a162/">
+                    <svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M20.45 20.45h-3.56v-5.57c0-1.33-.02-3.04-1.85-3.04-1.85 0-2.14 1.45-2.14 2.94v5.67H9.35V9h3.41v1.56h.05c.48-.9 1.64-1.85 3.37-1.85 3.6 0 4.27 2.37 4.27 5.46v6.28ZM5.34 7.43a2.06 2.06 0 1 1 0-4.13 2.06 2.06 0 0 1 0 4.13ZM7.12 20.45H3.56V9h3.56v11.45ZM22.22 0H1.77C.79 0 0 .77 0 1.73v20.54C0 23.23.79 24 1.77 24h20.45c.98 0 1.78-.77 1.78-1.73V1.73C24 .77 23.2 0 22.22 0Z"/></svg>
+                    in/manuel-pancorbo-castro<span class="lbl">linkedin</span>
+                  </a>
+                </li>
+                <li>
+                  <a href="https://github.com/manuelpcastro">
+                    <svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M12 .5a11.5 11.5 0 0 0-3.64 22.41c.58.1.79-.25.79-.56v-2c-3.2.7-3.87-1.36-3.87-1.36-.53-1.33-1.28-1.69-1.28-1.69-1.05-.71.08-.7.08-.7 1.16.08 1.77 1.19 1.77 1.19 1.03 1.77 2.7 1.26 3.36.96.1-.75.4-1.26.73-1.55-2.56-.29-5.24-1.28-5.24-5.69 0-1.26.45-2.29 1.19-3.09-.12-.29-.52-1.46.11-3.05 0 0 .97-.31 3.17 1.18a10.9 10.9 0 0 1 5.77 0c2.2-1.49 3.17-1.18 3.17-1.18.63 1.59.23 2.76.11 3.05.74.8 1.19 1.83 1.19 3.09 0 4.42-2.69 5.39-5.25 5.68.41.36.78 1.06.78 2.14v3.17c0 .31.21.67.8.56A11.5 11.5 0 0 0 12 .5Z"/></svg>
+                    github.com/manuelpcastro<span class="lbl">github</span>
+                  </a>
+                </li>
+              </ul>
+              <p class="line" style="margin-top:18px">Open to remote full-stack or platform roles.</p>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer>
+      <div class="wrap">
+        <span>© 2026 Manuel Pancorbo Castro</span>
+        <span>hand-written HTML/CSS · no framework · v2.0</span>
+      </div>
+    </footer>
+
+    <script src="./assets/js/site.js"></script>
+  </body>
+</html>
